@@ -28,14 +28,14 @@ public class SumNumbersArray {
         }
 
         // Calculate the sum of all stored numbers
-        System.out.println("\nNumbers entered:");
+        System.out.println("Numbers entered:");
         for (int i = 0; i < index; i++) {
             System.out.print(numbers[i] + " ");
             total += numbers[i];
         }
 
         // Display the total sum
-        System.out.println("\nTotal sum of numbers: " + total);
+        System.out.println("Total sum of numbers: " + total);
 
         scanner.close();
     }

@@ -20,7 +20,7 @@ public class VotingEligibility {
                 System.out.println("The student with the age " + ages[i] + " can vote.");
             } else {
                 System.out.println("The student with the age " + ages[i] + " cannot vote.");
-            }
+            } 
         }
 
         scanner.close();

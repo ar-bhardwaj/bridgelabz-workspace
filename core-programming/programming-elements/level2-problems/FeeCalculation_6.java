@@ -4,7 +4,7 @@ public class FeeCalculation_6 {
         int fee = 125000;
         int discountper = 10;
 
-        double discount = (fee * discountper) / 100.0; // calculating offer on 10% discount
+        double discount = (fee * discountper) / 100; // calculating offer on 10% discount
 
         double finalFee = fee - discount; // after discount fee
 

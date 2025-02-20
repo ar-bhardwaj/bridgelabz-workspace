@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Centimetertofeet_19 {
+public class Centimetertofeet_10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

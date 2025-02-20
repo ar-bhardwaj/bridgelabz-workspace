@@ -17,3 +17,6 @@ public class MeanheightArr {
         scanner.close();
     }
 }
+
+
+

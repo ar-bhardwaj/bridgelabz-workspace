@@ -52,5 +52,7 @@ public class BonusPayout {
         System.out.println("The total bonus payout is " + totalBonus);
         System.out.println("The total old salary payout is " + totalOldSalary);
         System.out.println("The total new salary payout is " + totalNewSalary);
+
+        sc.close();
     }
 }

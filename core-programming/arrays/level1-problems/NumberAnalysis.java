@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class NumberAnalysis {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int[] numbers = new int[5]; // Array to store 5 numbers
+        int[] numbers = new int[2]; // Array to store 5 numbers
 
         // Taking input for the array
         for (int i = 0; i < numbers.length; i++) {
@@ -31,7 +31,7 @@ public class NumberAnalysis {
         int first = numbers[0];
         int last = numbers[numbers.length - 1];
 
-        System.out.println("\nComparison of First and Last Elements:");
+        System.out.println("Comparison of First and Last Elements:");
         if (first == last) {
             System.out.println("First element (" + first + ") is equal to Last element (" + last + ").");
         } else if (first > last) {

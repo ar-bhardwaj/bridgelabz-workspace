@@ -1,19 +1,14 @@
-
-// 1. Count Vowels and Consonants
 import java.util.Scanner;
 
 public class VowelConsonantCounter {
     public static void main(String[] textualInput) {
-        // Create a Scanner object to take input from the user
-        Scanner userInput = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // Prompt user for input
         System.out.print("Enter a string: ");
-        String givenText = userInput.nextLine();
-
-        // Close the scanner to prevent resource leaks
-        userInput.close();
-
+        String givenText = sc.nextLine();
+       
+        sc.close();
         // Initialize counters for vowels and consonants
         int vowelTally = 0, consonantTally = 0;
 
